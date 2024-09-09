@@ -49,7 +49,7 @@ console.log(controversialPizzaToppings);
 
 // 5) Duplicate the following object and spread its values into a new variable `myCar`.
 
-/*const car = {
+/*const car = {  ^^ declared above
     make: 'Audi',
     model: 'q5',
   };
@@ -61,3 +61,18 @@ const myCar = {...car};
 myCar.model = 'q7';
 
 console.log(myCar);
+
+
+// 6) Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+
+const propertyName = 'email';
+
+const userProfile = {
+  [propertyName]: 'BeauX@email.com',
+};
+
+console.log(userProfile);
