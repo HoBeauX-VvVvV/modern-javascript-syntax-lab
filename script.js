@@ -110,7 +110,7 @@ if (pizza === 'tasty') {
 pizza === 'tasty' ? console.log('yum') : console.log('yuck')
 
 
-// 10) SET LANGUAGE
+// 10) 1. SET LANGUAGE
 
 // Construct a single line of code that assigns a default value using the logical OR operator. This line should match the logic of the following statement: 
 
@@ -125,3 +125,15 @@ const localLangConfig = null;  // Change to 'es', 'fr', etc., or keep it null
 
 const LANG = localLangConfig || 'en';
 console.log('Language setting:', LANG);
+
+// 2. SET WEBSITE THEME
+
+const userSavedTheme = null; // Change to 'dark', 'contrast', etc., or keep it null
+
+// a. Create a variable called USER_THEME
+// b. Assign USER_THEME the value of userSavedTheme or 'light' as a default
+
+// Your code here
+
+const USER_THEME = userSavedTheme || 'light'
+console.log('User theme setting:', USER_THEME);
